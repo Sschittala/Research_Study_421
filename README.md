@@ -97,7 +97,7 @@ The LLM's explanation demonstrates an ability to connect:
 ### Execution
 
 1.  **Clone the repository.**
-2.  **Update API Key:** Replace `'Your API Key'` with your actual Gemini API key in the TANS execution cell (Cell 104).
+2.  **Update API Key:** Replace `'Your API'` with your actual Gemini API key in the TANS execution cell (Cell 104).
 3.  **Run the Jupyter Notebook** (`Research_Study_421.ipynb`) sequentially.
 
 The notebook executes three phases:
