@@ -1,0 +1,25 @@
+# 📝 requirements.txt for Research_Study_421
+
+# Core Scientific Computing and Data Analysis Libraries
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+
+# Graph Libraries
+networkx>=2.6.0
+
+# PyTorch and PyTorch Geometric (PyG) Dependencies
+# Note: Exact torch and torch-scatter/torch-geometric versions are highly dependent 
+# on your specific CUDA environment. The versions listed below match the output 
+# seen in your notebook's installation cell (Cell 93), but often the latest stable 
+# version compatible with your CUDA is preferred.
+
+torch==2.9.0
+torch-geometric==2.7.0
+torch-scatter==2.1.2 
+
+# LLM Integration (using the Google GenAI SDK)
+google-genai>=0.1.0 
+
+# Scikit-learn is imported in the SVD function for 'normalize'
+scikit-learn>=1.0.0
